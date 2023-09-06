@@ -17,13 +17,13 @@ watchEffect( () => {
         <thead>
         <tr>
             <th>
-                Name
+                Nombre
             </th>
             <th>
                 Email
             </th>
             <th>
-                Comment
+                Comentario
             </th>
         </tr>
         </thead>
@@ -44,18 +44,20 @@ watchEffect( () => {
 
 <style scoped>
 table {
-    border: 1px solid #2c3e50;
+    max-width: 800px;
+    border-bottom: 1px solid #2c3e50;
     border-collapse: collapse;
     margin: 16px 0;
 }
 
 th, td {
-    border: 1px solid #2c3e50;
+    border-bottom: 1px solid #2c3e50;
     text-align: left;
     padding: 8px;
 }
 
 th {
+    min-width: 150px;
     font-weight: 600;
     color: #2c3e50;
 }
