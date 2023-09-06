@@ -2,7 +2,7 @@ import './assets/main.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
-import NotFound from "@/components/NotFound.vue";
+import NotFound from "@/components/Home.vue";
 import Table from "@/components/Table.vue";
 import {createWebHistory, createRouter} from 'vue-router';
 
